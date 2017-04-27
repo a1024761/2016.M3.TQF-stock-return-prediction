@@ -26,12 +26,15 @@ Process:
   (5)RSI:  RS=[A÷B]×100% (A:the sum of price increase among N days . B:the sum of price decrease among N days)
   
      RSI=100-100/(1+RS)
+     
+     RSI is a very important indicator.If the number of RSI blow 20. It's price has high probability to go up. And if the number of RSI above 80. It's price has high probability to go down.
 
 4.calculate the return of index
 
-5.calculate the return of each stock and compare the return of stock and index
+5.calculate the return of each stock and compare the return of stock and index. If the return of stock bigger than the return of index, we give a label '1'. If the return of stock smaller than the return of index, we give a label '-1'.
 
-6.Using the n-th period as train set, and using the n+1-th period as test set. Then predict the return of n+2-th .
+6.Using the n-th period as train set, and using the n+1-th period as test set. Then predict the stock return of n+2-th .
+  That means we train data at time n.Then use the data of n+1 to predict it's return at time n+2.
 
 7.Select from the pool of stocks which is predicted to have higher return than index. Order all the stocks by RSI indicator and choose the smallest 10 stocks to buy it.And repeat this process every month.
 
