@@ -34,3 +34,20 @@ Features:
 6.Using the n-th period as train set, and using the n+1-th period as test set. Then predict the return of n+2-th .
 
 7.Select from the pool of stocks which is predicted to have higher return than index. Order all the stocks by RSI indicator and choose the smallest 10 stocks to buy it.And repeat this process every month.
+
+
+Methods:
+
+SVM/KNN
+
+
+Implementation:
+
+python notebook file :https://github.com/a1024761/2016.M3.TQF-stock-return-prediction/blob/master/final%20version.ipynb
+
+
+Conclusion:
+
+The accuracy of prediction varys between months. It's accuracy in some months can reach 0.9 but 0.3 for some other months.
+
+The return of our strategy is good. For total three years ,the return of it is 609% and annual return is 82.6%. Compare with the index return ,it's effect is good. And it encounter a small withdraw in 2015 for the whole market is bad.
