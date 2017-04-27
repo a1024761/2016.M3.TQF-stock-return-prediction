@@ -7,7 +7,7 @@ The aim of this project is to use machine learning knowledge to select efficient
 See the proposal(https://github.com/PHBS/2016.M3.TQF-ML/blob/master/Proposals/Long%20shuyi.pdf)
 
 
-Features:
+Process:
 
 1.Get close price and turnover data from 2014 to 2016 in China's SH stock market.
 
