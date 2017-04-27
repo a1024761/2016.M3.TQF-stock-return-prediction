@@ -1,2 +1,4 @@
 # 2016.M3.TQF-stock-return-prediction
-This project aims to predict stocks' return in China by SVM method.
+Project description
+
+From Fame-French three factor model, I got the instinction to implement short term multifactor in China's stock market. 
