@@ -25,4 +25,12 @@ Features:
   
   (5)RSI:  RS=[A÷B]×100% (A:the sum of price increase among N days . B:the sum of price decrease among N days)
   
-           RSI=100-100/(1+RS)
+     RSI=100-100/(1+RS)
+
+4.calculate the return of index
+
+5.calculate the return of each stock and compare the return of stock and index
+
+6.Using the n-th period as train set, and using the n+1-th period as test set. Then predict the return of n+2-th .
+
+7.Select from the pool of stocks which is predicted to have higher return than index. Order all the stocks by RSI indicator and choose the smallest 10 stocks to buy it.And repeat this process every month.
